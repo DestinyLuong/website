@@ -10,6 +10,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    border-radius: 10rem;
   }
 }
 
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav{
+  left: 25%;
+  margin-top: 10rem;
+  position: absolute;
+}
+
+.vTitle{
+  writing-mode: vertical-rl;
+  font-size: 5rem;
+  text-orientation: upright;
+  position: absolute;
+  padding-top: 2rem;
+}
+.test{
+  width: 50px;
 }
