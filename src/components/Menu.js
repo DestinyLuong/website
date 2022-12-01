@@ -1,4 +1,3 @@
-import logo from '../logo.svg';
 import { Planet } from 'react-planet';
 
 export const Menu = (props) => {
@@ -10,7 +9,7 @@ export const Menu = (props) => {
                 height: 200,
                 width: 200,
                 borderRadius: '50%',
-                backgroundImage:'url("../public/profile.jpg")',
+                backgroundImage:'url("../images/profile.jpg")',
                 backgroundSize: 200,
                 textAlign: 'center',
         }}/>}
@@ -28,7 +27,7 @@ export const Menu = (props) => {
                 height: 70,
                 width: 70,
                 borderRadius: '50%',
-                backgroundImage: 'url("../public/web-icon.png")',
+                backgroundImage: 'url("../images/web-icon.png")',
                 backgroundSize: '3rem',
                 backgroundPosition:'center',
                 backgroundRepeat:'no-repeat'
@@ -45,7 +44,7 @@ export const Menu = (props) => {
                 height: 70,
                 width: 70,
                 borderRadius: '50%',
-                backgroundImage: 'url("../public/credits-icon.png")',
+                backgroundImage: 'url("../images/credits-icon.png")',
                 backgroundSize: '3rem',
                 backgroundPosition:'center',
                 backgroundRepeat:'no-repeat'
@@ -58,7 +57,7 @@ export const Menu = (props) => {
                 height: 70,
                 width: 70,
                 borderRadius: '50%',
-                backgroundImage: 'url("../public/contact-icon.png")',
+                backgroundImage: 'url("../images/contact-icon.png")',
                 backgroundSize: '4rem',
                 backgroundPosition:'center',
                 backgroundRepeat:'no-repeat'

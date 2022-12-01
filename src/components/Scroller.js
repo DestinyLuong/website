@@ -8,7 +8,7 @@ export function Scroller() {
             <Carousel.Item>
               <img
                 className="d-block w-50"
-                src="../public/profile.jpg"
+                src={require('../images/profile.jpg')}
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -19,7 +19,7 @@ export function Scroller() {
             <Carousel.Item>
               <img
                 className="d-block w-50"
-                src="../public/profile.jpg"
+                src={require('../images/profile.jpg')}
                 alt="Second slide"
               />
       
@@ -31,7 +31,7 @@ export function Scroller() {
             <Carousel.Item>
               <img
                 className="d-block w-50"
-                src="../public/profile.jpg"
+                src={require('../images/profile.jpg')}
                 alt="Third slide"
               />
       

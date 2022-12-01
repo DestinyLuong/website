@@ -1,7 +1,7 @@
 import '../App.css';
 
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,5 +20,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;
